@@ -1,0 +1,5 @@
+
+<Screen Background='./Ui/Background/backgrond.png' FPS='1'>
+    <Item Name="stockListTable"    Var=""   Type="" DispCtl="LISTTABLE"   DispParam="txt.L.CM.N, , 10"    Coord="2,  2, 680, 300"   Visiable="true" Mode="NORMAL" Enable="" SetCtl="" SetParam="Ui/StockTable.xml:Parameter/stockinfo.cfg"/>
+	
+</Screen>

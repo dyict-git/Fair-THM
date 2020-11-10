@@ -1,0 +1,53 @@
+
+<Screen Background='./Ui/Background/backconfig.png' ParamFile="Parameter\ConfigSystem.dat">
+	
+	<Item Name="settempset"       Var="prmSetTemp"      Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"    Coord="240, 35, 80, 20"     Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	<Item Name="ValidTempset"     Var="prmValidTemp"    Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"    Coord="240, 65, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+
+	
+	<Item Name="sethumdiset"      Var="prmSetHumi" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"   Coord="240, 100, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	<Item Name="Validhumiset"     Var="prmValidHumi" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10" Coord="240, 125, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+
+
+	
+	
+
+	<Item Name="settempset2"       Var="prmSetTemp2"      Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10" Coord="520, 35, 80, 20"     Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	<Item Name="ValidTempset2"     Var="prmValidTemp2" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"    Coord="520, 65, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+	
+
+	<Item Name="sethumdiset2"      Var="prmSetHumi2" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"   Coord="520, 100, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	<Item Name="Validhumiset2"     Var="prmValidHumi2" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10" Coord="520,125, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+
+	
+	<Item Name="prmHostReportTime"              Var="prmHostReportTime" Type="DO"   DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"      Coord="300, 170,  80, 20"     Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	
+	
+	
+	<Item Name="prmMouduleID"     Var="prmMouduleID" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"    Coord="200, 200, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+
+	
+	<Item Name="prmwhID"            Var="prmwhID" Type="DO" DispCtl="TEXT" DispParam="txt.J.Y.H.CM, , 10"    Coord="200, 230, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+
+
+
+	<Item Name="prmwhfunctionType"            Var="prmwhfunctionType"        Type="DO" DispCtl="TEXT"      DispParam="txt.J.Y.H.CM, , 10"    Coord="200, 260, 80, 20"   Visiable="true" Mode="" Enable="" SetCtl='#FIXED' SetParam=""/>
+	
+	<Item Name="prmScreenParameter"            Var="prmScreenParameter"      Type="DO"  DispCtl="TEXT"        DispParam="txt.J.Y.H.CM, ,10,white"         Coord="400,  200, 80, 20"      Visiable="true" Mode="NORMAL" Enable="" SetCtl="#FIXED" SetParam=""/>
+
+
+
+
+
+	<Item Name="SaveBtn"     Var="" Type="" DispCtl="BUTTON"  DispParam="txt.L.CM.N:btnsave, , 10"    Coord="500, 280, 95, 60"   Visiable="true" Mode="NORMAL" Enable="" SetCtl="#FILE_SAVE"   SetParam="Mainbtn4"/>
+    <Item Name="CancelBtn"   Var="" Type="" DispCtl="BUTTON"  DispParam="txt.L.CM.N:btncancel, , 10"  Coord="595,  280, 95, 60"  Visiable="true" Mode="NORMAL" Enable="" SetCtl="#FILE_CANCEL" SetParam="Mainbtn5, Cmmand"/>
+
+
+
+
+</Screen>

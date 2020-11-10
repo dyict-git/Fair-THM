@@ -1,0 +1,16 @@
+<ListTable>
+	<Button Name='Reload' Image='' Coordinate='600,320,100,25' />
+    
+	<List Coordinate='0,26, 726,280' sepChar=',' Height="25" clrText="250,250,250" clrBack="30,30,30" clrLine="200,200,200" clrSelect="0xDA,0xA5,0x20" >
+		<Column Width="100" Titile="창고명"    Item="ItemTime" Align="Center"  />
+		<Column Width="100" Titile="입고일"	Item="ItemID"    Align="Center"  />
+		<Column Width="100" Titile="제품명"	Item="Itembbb"   Align="Center"  />
+        <Column Width="100" Titile="중량"	    Item="Itembbb"   Align="Center"  />
+        <Column Width="100" Titile="단위"	    Item="Itembbb"   Align="Center"  />
+        <Column Width="70" Titile="재고수량"	Item="Itembbb"   Align="Center"  />
+        <Column Width="130" Titile="유통기한"	Item="Itembbb"   Align="Center"  />
+        
+
+	</List>
+
+</ListTable>

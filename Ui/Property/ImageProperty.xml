@@ -1,0 +1,77 @@
+<UI>
+    <Property>
+        <Directory>
+            
+			<Tag Name="Btnmain_off"				Path="./Ui/Image/Btnmain_off.png" />
+            <Tag Name="Btnmain_on"			    Path="./Ui/Image/Btnmain_on.png" />
+			<Tag Name="Btnstock_off"		    Path="./Ui/Image/Btnstock_off.png" />
+            <Tag Name="Btnstock_on"		        Path="./Ui/Image/Btnstock_on.png" />
+			<Tag Name="Btnconfig_off"			Path="./Ui/Image/Btnconfig_off.png" />
+			<Tag Name="Btnconfig_on"		    Path="./Ui/Image/Btnconfig_on.png" />	
+            <Tag Name="REROAD_on"		        Path="./Ui/Image/REROAD_on.png" />	
+            <Tag Name="REROAD_off"		        Path="./Ui/Image/REROAD_off.png" />	        
+            <Tag Name="SAVE_off"		        Path="./Ui/Image/SAVE_off.png" />	
+            <Tag Name="SAVE_on"		            Path="./Ui/Image/SAVE_on.png" />	
+            <Tag Name="CANCEL_on"		        Path="./Ui/Image/CANCEL_on.png" />
+			<Tag Name="CANCEL_off"		        Path="./Ui/Image/CANCEL_off.png" />
+        
+        </Directory>
+        
+        <ImageLib Name='TEMP1'>
+			<Index Value="0" Tag="TEMP_OK" />
+            <Index Value="1" Tag="TEMP_NG" />
+        </ImageLib>
+		
+		<ImageLib Name='HUMI1'>
+			<Index Value="0" Tag="HUMI_OK" />
+			<Index Value="1" Tag="HUMI_NG" />
+		</ImageLib>
+        
+		
+		<ImageLib Name='TEMP2'>
+			<Index Value="0" Tag="TEMP_OK" />
+			<Index Value="1" Tag="TEMP_NG" />
+		</ImageLib>
+		
+		<ImageLib Name='HUMI2'>
+			<Index Value="0" Tag="HUMI_OK" />
+			<Index Value="1" Tag="HUMI_NG" />
+
+		</ImageLib>
+
+        <ImageLib Name='btnmain'>
+            <Index Value="0" Tag="Btnmain_off" />
+            <Index Value="1" Tag="Btnmain_on" />
+
+        </ImageLib>
+
+        <ImageLib Name='btnstock'>
+             <Index Value="0" Tag="Btnstock_off" />
+             <Index Value="1" Tag="Btnstock_on" />
+
+        </ImageLib>
+
+        <ImageLib Name='btnconfig'>
+            <Index Value="0" Tag="Btnconfig_off" />
+            <Index Value="1" Tag="Btnconfig_on" />
+
+        </ImageLib>
+        
+        <ImageLib Name='btnreload'>
+            <Index Value="0" Tag="REROAD_off" />
+            <Index Value="1" Tag="REROAD_on" />
+        </ImageLib>
+	
+        <ImageLib Name='btnsave'>
+            <Index Value="0" Tag="SAVE_off" />
+            <Index Value="1" Tag="SAVE_on" />
+        </ImageLib>
+        
+        
+        <ImageLib Name='btncancel'>
+            <Index Value="0" Tag="CANCEL_off" />
+            <Index Value="1" Tag="CANCEL_on" />
+        </ImageLib>
+    </Property>
+</UI>
+

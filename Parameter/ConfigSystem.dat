@@ -1,0 +1,13 @@
+settempset	10
+ValidTempset	20
+sethumdiset	10
+Validhumiset	20
+settempset2	30
+ValidTempset2	30
+sethumdiset2	30
+Validhumiset2	30
+prmHostReportTime	1
+prmMouduleID	1
+prmwhID	1
+prmwhfunctionType	1
+prmScreenParameter	2

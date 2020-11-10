@@ -1,0 +1,16 @@
+<DYICT>
+    <System>
+        <Simulation  Mode='True' /> 
+        <UiOrigin    X='0' Y='0' Width='800' Height='480' />     
+    </System>
+    <Project Name="Demo">                  
+        <UiProperty Name="Property"        File="./Ui/Property/UiProperty.xml"/>
+		<UiImageLib Name="Image"           File="./Ui/Property/ImageProperty.xml"/>
+        <UiScreen   Name="UiScreenTop"     Resource="../DyEngine/Ui/Resource/UiTopScreen.ui"    Coordinate="0,0,800,48"     ItemFile="Ui/ScreenTop.xml" />
+        <UiScreen   Name="UiScreenRight"   Resource="../DyEngine/Ui/Resource/UiRightScreen.ui"  Coordinate="716,80,80,400"  ItemFile="Ui/ScreenRight.xml" />
+        <UiScreen   Name="UiScreenMain"    Resource="../DyEngine/Ui/Resource/UiMainScreen.ui"   Coordinate="0,80,720,400"   ItemFile="Ui/ScreenMain.xml" />
+		<UiScreen   Name="UiScreenMain2"   Resource="../DyEngine/Ui/Resource/UiMainScreen.ui"   Coordinate="0,80,720,400"   ItemFile="Ui/ScreenMain2.xml" />
+		<UiScreen   Name="UiScreenStock"   Resource="../DyEngine/Ui/Resource/UiMainScreen.ui"   Coordinate="0,80,720,400"   ItemFile="Ui/ScreenStock.xml" />
+        <UiScreen   Name="UiScreenConfig"  Resource="../DyEngine/Ui/Resource/UiMainScreen.ui"   Coordinate="0,80,720,400"   ItemFile="Ui/ScreenConfig.xml" /> 
+    </Project>
+</DYICT>    

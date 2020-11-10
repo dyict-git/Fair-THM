@@ -1,0 +1,27 @@
+
+<Screen Background='./Ui/Background/sensor2.png' FPS='1'>
+	
+	
+	
+	
+	
+    
+	
+    <Item Name="Temp1"                  Var="Temp1"       Type="DI" DispCtl="TEXT"   DispParam="txt.J.Y.H.CM, ,10, White"              Coord="200, 150, 100, 50"    Visiable="true" Mode="NORMAL" Enable="" SetCtl="" SetParam=""/>
+	<Item Name="Humidity1"              Var="Humidity1"   Type="DI" DispCtl="TEXT"   DispParam="txt.J.Y.H.CM, , 10, White"              Coord="200, 260, 100, 50"    Visiable="true" Mode="NORMAL" Enable="" SetCtl="" SetParam=""/>
+
+	
+	
+	
+	
+	<Item Name="Temp2"                 Var="Temp2"        Type="DI" DispCtl="TEXT"   DispParam="txt.J.Y.H.CM, , 10, White"        Coord="490,  150, 100, 50"    Visiable="true" Mode="NORMAL" Enable="" SetCtl="" SetParam=""/>
+	<Item Name="Humidity2"             Var="Humidity2"    Type="DI" DispCtl="TEXT"   DispParam="txt.J.Y.H.CM, , 10, white"        Coord="490,  260, 100, 50"    Visiable="true" Mode="NORMAL" Enable="" SetCtl="" SetParam=""/>
+
+
+
+
+
+
+	
+
+</Screen>

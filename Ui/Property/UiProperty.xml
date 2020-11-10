@@ -1,0 +1,42 @@
+<UI>
+	<Property>
+        <!-- Define the Font -->
+		<Font Name="fontThin" 		Faimly="Arial" 	Size="10"  Weight="100" Italic="True"  Underline="false" StrikeOut="false" /> 
+		<Font Name="fontThinUnder"  Faimly="Arial" 	Size="10"  Weight="100" Italic="True"  Underline="True"  StrikeOut="false" />
+		<Font Name="fontLight"		Faimly="Arial" 	Size="13"  Weight="300" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontNormal" 	Faimly="Arial" 	Size="13"  Weight="400" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontMedium" 	Faimly="Arial" 	Size="13"  Weight="500" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontSemiBold" 	Faimly="Arial" 	Size="13"  Weight="600" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontBold" 		Faimly="Arial" 	Size="13"  Weight="700" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontExtraBold" 	Faimly="Arial" 	Size="13"  Weight="800" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontHeavy"	 	Faimly="Arial" 	Size="13"  Weight="900" Italic="false" Underline="false" StrikeOut="false" />
+		<Font Name="fontjyh"	 	Faimly="Arial" 	Size="15"  Weight="1000" Italic="false" Underline="false" StrikeOut="false" />
+	
+        <!-- Define the Color -->
+        <Color Name="Black"	 	R="0"   G="0"   B="0" />
+		<Color Name="Red"	 	R="255" G="0"   B="0" />
+		<Color Name="Blue"	 	R="0"   G="0"   B="255" />	
+		<Color Name="Green"	 	R="0"   G="255" B="0" />
+        <Color Name="White"	 	R="255" G="255" B="255" />
+        <Color Name="Gray"	 	R="128" G="128" B="128" />
+        <Color Name="Darygray" 	R="169" G="169" B="169" />
+        <Color Name="Silver" 	R="192" G="192" B="192" />
+        <Color Name="Lime" 	    R="191" G="255" B="0" />
+        <Color Name="Skyblue" 	R="178" G="255" B="255" />
+        <Color Name="Yellow" 	R="255" G="255" B="0" />
+              
+        <!-- Define the TextBox -->
+        <Text Name="txt.L.CM.N" 		Font="fontThin" 	Align="Center,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.CM.N.D" 		Font="fontThin" 	Align="Center,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="true"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.LM.N"			Font="fontThin" 	Align="Left,Middle"     clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.LM.N.D" 		Font="fontThin" 	Align="Left,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="true"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.LT.N"			Font="fontLight" 	Align="Left,Top" 		clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.LT.N.D" 		Font="fontLight" 	Align="Left,Top" 		clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="true"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.RM.N"			Font="fontLight" 	Align="Right,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.L.RM.N.D" 		Font="fontLight" 	Align="Right,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="true"	/>	<!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+        
+		<Text Name="txt.J.Y.H.CM" 	    Font="fontjyh" 	    Align="Center,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>  <!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->
+		<Text Name="txt.J.Y.H.LM" 	    Font="fontjyh" 	    Align="Left,Middle" 	clrText="" clrBack="" 	clrLT="" 	clrRB="" 	Mode="Normal"	DirectDraw="false"	/>  <!-- (fontSize,clrText,clrBack,clrLT,clrRB)	-->	
+	</Property>
+</UI>
+

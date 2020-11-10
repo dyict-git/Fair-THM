@@ -1,0 +1,8 @@
+
+<Screen Background='./Ui/Background/right.png'>
+	<Item Name="MainBtn"    Var=""   Type="DO" DispCtl="BUTTON" DispParam="txt.L.CM.N:btnmain,   ,"   Coord="4, 4,   80, 80"    Visiable="true" Mode="NORMAL"   Enable="" SetCtl="" SetParam="UiScreenMain"/>
+    <Item Name="StockBtn"   Var=""  Type="DO" DispCtl="BUTTON" DispParam="txt.L.CM.N:btnstock,  ,"   Coord="4, 88,  80, 80"    Visiable="true" Mode="NORMAL"   Enable="" SetCtl="" SetParam="UiScreenStock"/>
+    <Item Name="ConfigBtn"  Var="" Type="DO" DispCtl="BUTTON" DispParam="txt.L.CM.N:btnconfig, ,"   Coord="4, 172, 80, 80"    Visiable="true" Mode="NORMAL"   Enable="" SetCtl="" SetParam="UiScreenConfig"/>
+
+
+</Screen>
