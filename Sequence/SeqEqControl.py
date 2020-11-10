@@ -216,13 +216,16 @@ class Sequence: # Don't Change Class Name
                 # Simualtion Coding
                 # ---------------------------------------------------------------------------------------
                 if _dySystemInfo.SimulationMode is True: # Real Mode(With H/W)
-                    randvalue = random.randint(25, 26)
+                    randvalue = random.randint(25,26)
                     randvalue2 = random.randint(55,57)
+                    randvalue3 = random.randint(26,27)
+                    randvalue4 = random.randint(56,58)
+                    
                     self.Temp1.Write(randvalue)
                     self.Humidity1.Write(randvalue2)
                    
-                    self.Temp2.Write(randvalue)
-                    self.Humidity2.Write(randvalue2)
+                    self.Temp2.Write(randvalue3)
+                    self.Humidity2.Write(randvalue4)
 
 
                 # ---------------------------------------------------------------------------------------
